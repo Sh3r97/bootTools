@@ -20,10 +20,10 @@ mkdir image
 cd ..
 mkdir include
 cd include
-curl https://raw.githubusercontent.com/Sh3r97/bootTools/main/header.txt --output header.php
-curl https://raw.githubusercontent.com/Sh3r97/bootTools/main/footer.txt --output footer.php
+curl https://raw.githubusercontent.com/Sh3r97/bootTools/main/header.php --output header.php
+curl https://raw.githubusercontent.com/Sh3r97/bootTools/main/footer.php --output footer.php
 cd..
-curl https://raw.githubusercontent.com/Sh3r97/bootTools/main/index.txt --output home.php
+curl https://raw.githubusercontent.com/Sh3r97/bootTools/main/index.php --output home.php
 cls
 echo Progetto inizializzato premi un tasto per avviarlo buon lavoro!
 pause
