@@ -1,4 +1,5 @@
 @echo off
+cd C:\xampp\htdocs
 echo Bemvenuto su bootSher inserisci il nome del tuo progetto
 set /p "id=Nome progetto: "
 mkdir %id%
@@ -24,5 +25,6 @@ curl https://raw.githubusercontent.com/Sh3r97/bootTools/main/footer.txt --output
 cd..
 curl https://raw.githubusercontent.com/Sh3r97/bootTools/main/index.txt --output home.php
 cls
-echo Progetto inizializzato buon lavoro!
+echo Progetto inizializzato premi un tasto per avviarlo buon lavoro!
 pause
+start "" https://localhost/%id%
