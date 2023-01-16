@@ -24,5 +24,5 @@ curl https://raw.githubusercontent.com/Sh3r97/bootTools/main/footer.txt --output
 cd..
 curl https://raw.githubusercontent.com/Sh3r97/bootTools/main/index.txt --output home.php
 cls
-echo Progetto inizializato buon lavoro!
+echo Progetto inizializzato buon lavoro!
 pause
